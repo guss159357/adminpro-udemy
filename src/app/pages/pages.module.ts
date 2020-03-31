@@ -20,6 +20,8 @@ import { PAGES_ROUTES } from './pages.routes';
 // temporal
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 @NgModule({
@@ -30,7 +32,9 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
     PagesComponent,
     IncrementadorComponent,
     GraficoDonaComponent,
-    AccoutSettingComponent
+    AccoutSettingComponent,
+    PromesasComponent,
+    RxjsComponent
   ],
   exports: [
     DashboardComponent,
